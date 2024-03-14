@@ -4,9 +4,11 @@ This Python code is designed to analyze Ca2+ time course traces of cells imaged 
 
 ## How to use the program
 
-A sample TIFF stack is provided for testing purposes (Glass_Pin_small.tif). For space saving, the stack was significantly downsized in terms of the number of images in the stack and the height/width dimensions.
+A sample TIFF stack is provided for testing purposes (Glass_Pin_small.tif). For space saving, the stack was significantly downsized in terms of the number of images in the stack and the height/width dimensions. The TIFF file is available here:
 
-**NOTE** that the sample image was recorded with both a brightfield and fluorescence image at each time point. The code therefore analyzes every second image, starting with the first. This can be changed in the code in “def open_file(self)”. 
+<https://drive.google.com/file/d/1g8nCTSb0__P59a-QgtbFIreyL2gFj_jO/view?usp=sharing>
+
+**NOTE** that the sample image was recorded with both a brightfield and fluorescence image at each time point. The code therefore analyzes every second image, starting with the first. This can be changed in the code in “def open_file(self)”.
 
 The Python code will read the image stack (File -\> Open) and display the first image in the stack. One can play the image as a movie (Process -\> Play).
 
